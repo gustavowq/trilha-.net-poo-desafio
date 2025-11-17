@@ -9,10 +9,8 @@ namespace DesafioPOO.Models
         public override void InstalarAplicativo(string nomeApp)
         {   
             Console.WriteLine("Abrindo play Store");
-            Console.WriteLine(" Qual app deseja instalar?");
-            nomeApp = Console.ReadLine();
             Console.WriteLine("Iniciando donwload...");
-            Console.WriteLine($"O aplicativo{nomeApp} foi instalado");
+            Console.WriteLine($"O aplicativo {nomeApp} foi instalado");
 
         }
         // TODO: Sobrescrever o método "InstalarAplicativo"
